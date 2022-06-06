@@ -216,12 +216,16 @@ footer img {
         grid-template-areas: 
             'title title title'
             'image image stext';
-        justify-content: start;
+        justify-content: center;
+    }
+    .header p {
+        margin: 0 10vw;
+    }
+    .title-text p {
+        margin: 0 6vw;
     }
     .first-ctn img {
         width: 100%;
-        height: 500px;
-        align-items: center;
     }
     .title-text {
         grid-area: title;
@@ -232,6 +236,8 @@ footer img {
     .side-text {
         grid-area: stext;
         text-align: left;
+        align-self: center;
+        gap: 3rem;
     }
     .second-ctn {
         display: flex;
