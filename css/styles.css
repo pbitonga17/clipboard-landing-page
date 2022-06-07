@@ -26,6 +26,7 @@ footer {
 }
 .first-ctn img {
     width: 100%;
+    margin: 0 auto;
 }
 .second-ctn img {
     width: 100%;
@@ -209,7 +210,7 @@ footer img {
 }
 .footer-list a {
     text-decoration: none;
-    font-size: clamp(0.9rem, 3vw, 1.2rem);
+    font-size: clamp(0.9rem, 3vw, 1rem);
     color: hsl(201, 11%, 66%);
 }
 .socmed-icons {
@@ -305,6 +306,17 @@ footer img {
     .second-ctn img {
         width: 70%;
         margin: 0 auto;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .header {
+        margin: 0 10vw;
+    }
+    main {
+        margin: 0 11vw;
+    }
+    footer {
+        padding: 50px 10vw;
     }
 }
 
